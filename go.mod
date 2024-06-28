@@ -13,8 +13,8 @@ require (
 	go.opentelemetry.io/otel/trace v1.20.0
 	golang.org/x/sys v0.21.0
 	google.golang.org/grpc v1.59.0
-	k8s.io/api v0.0.0-20240628062210-70c01741beda
-	k8s.io/apimachinery v0.0.0-20240628061934-adf72dd6c5c2
+	k8s.io/api v0.0.0-20240628102218-48abdb05202b
+	k8s.io/apimachinery v0.0.0-20240628175805-ef4453d2613f
 	k8s.io/client-go v0.0.0-20240628062603-ae071bc75ff9
 	k8s.io/component-base v0.0.0-20240628063534-3b0f2cefb281
 	k8s.io/cri-api v0.0.0-20240628070225-c432a0b81405
