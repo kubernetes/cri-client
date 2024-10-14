@@ -16,10 +16,10 @@ require (
 	golang.org/x/sys v0.26.0
 	google.golang.org/grpc v1.65.0
 	k8s.io/api v0.0.0-20241011135352-a432ebea6002
-	k8s.io/apimachinery v0.0.0-20241011134855-ee6d9667b400
-	k8s.io/client-go v0.0.0-20241011140021-64f5574f09ee
+	k8s.io/apimachinery v0.0.0-20241012054809-2b29434a8c7f
+	k8s.io/client-go v0.0.0-20241014140033-c38ce11939a7
 	k8s.io/component-base v0.0.0-20241011141534-5f571d319450
-	k8s.io/cri-api v0.0.0-20241011150423-399f041ee745
+	k8s.io/cri-api v0.0.0-20241013022253-8706270607c2
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 )
