@@ -15,11 +15,11 @@ require (
 	go.opentelemetry.io/otel/trace v1.28.0
 	golang.org/x/sys v0.26.0
 	google.golang.org/grpc v1.65.0
-	k8s.io/api v0.0.0-20241104230202-a653b0a58983
-	k8s.io/apimachinery v0.0.0-20241104225908-9500acc2d964
-	k8s.io/client-go v0.0.0-20241104230604-2ff887486f17
-	k8s.io/component-base v0.0.0-20241104231613-899866896335
-	k8s.io/cri-api v0.0.0-20241101194532-9b9dff256980
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
@@ -74,8 +74,16 @@ require (
 	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20240827152857-f7e401e7b4c2 // indirect
+	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f // indirect
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
 )
