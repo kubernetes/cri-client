@@ -6,6 +6,10 @@ go 1.23.0
 
 godebug default=go1.23
 
+godebug winreadlinkvolume=0
+
+godebug winsymlink=0
+
 require (
 	github.com/Microsoft/go-winio v0.6.2
 	github.com/fsnotify/fsnotify v1.7.0
@@ -15,11 +19,11 @@ require (
 	go.opentelemetry.io/otel/trace v1.28.0
 	golang.org/x/sys v0.26.0
 	google.golang.org/grpc v1.65.0
-	k8s.io/api v0.0.0-20241108114312-685b65de52a4
-	k8s.io/apimachinery v0.0.0-20241106231735-d941d9fb4c83
-	k8s.io/client-go v0.0.0-20241108115817-c57e0a82c31e
-	k8s.io/component-base v0.0.0-20241107031631-88ede593c6c4
-	k8s.io/cri-api v0.0.0-20241127193822-354c4101c08d
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
@@ -78,4 +82,12 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
 )
