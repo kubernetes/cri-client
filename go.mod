@@ -2,9 +2,9 @@
 
 module k8s.io/cri-client
 
-go 1.24.0
+go 1.23.0
 
-godebug default=go1.24
+godebug default=go1.23
 
 require (
 	github.com/Microsoft/go-winio v0.6.2
@@ -13,13 +13,13 @@ require (
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.53.0
 	go.opentelemetry.io/otel/sdk v1.28.0
 	go.opentelemetry.io/otel/trace v1.28.0
-	golang.org/x/sys v0.28.0
+	golang.org/x/sys v0.30.0
 	google.golang.org/grpc v1.65.0
-	k8s.io/api v0.0.0-20250227200351-c3130ba7ba23
-	k8s.io/apimachinery v0.0.0-20250227200116-758f86daa84e
-	k8s.io/client-go v0.0.0-20250227200727-b46275ad754d
-	k8s.io/component-base v0.0.0-20250227201942-06fa090a27ec
-	k8s.io/cri-api v0.0.0-20250227204736-ab0a76fc7fde
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 )
@@ -63,8 +63,8 @@ require (
 	go.opentelemetry.io/otel/metric v1.28.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
 	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/oauth2 v0.23.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.7.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240826202546-f6391c0de4c7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240826202546-f6391c0de4c7 // indirect
@@ -75,4 +75,12 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
 )
