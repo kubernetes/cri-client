@@ -2,9 +2,9 @@
 
 module k8s.io/cri-client
 
-go 1.24.0
+go 1.25.0
 
-godebug default=go1.24
+godebug default=go1.25
 
 require (
 	github.com/Microsoft/go-winio v0.6.2
@@ -15,11 +15,11 @@ require (
 	go.opentelemetry.io/otel/trace v1.36.0
 	golang.org/x/sys v0.35.0
 	google.golang.org/grpc v1.72.2
-	k8s.io/api v0.0.0-20250918002154-48e06b5d473b
-	k8s.io/apimachinery v0.0.0-20250916034007-79d1b678e5a3
-	k8s.io/client-go v0.0.0-20250912115231-8decd4f5c045
-	k8s.io/component-base v0.0.0-20250911200454-bc57539132eb
-	k8s.io/cri-api v0.0.0-20250917220207-91999dd7ee32
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -77,4 +77,12 @@ require (
 	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
 )
