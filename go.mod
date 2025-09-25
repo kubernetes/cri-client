@@ -15,11 +15,11 @@ require (
 	go.opentelemetry.io/otel/trace v1.36.0
 	golang.org/x/sys v0.35.0
 	google.golang.org/grpc v1.72.2
-	k8s.io/api v0.0.0-20250919032300-f0adbf4eb780
-	k8s.io/apimachinery v0.0.0-20250919032000-da5b06e2fb66
-	k8s.io/client-go v0.0.0-20250919032728-7b6fbf8e600b
-	k8s.io/component-base v0.0.0-20250919034137-4453c3be72a8
-	k8s.io/cri-api v0.0.0-20250918011149-65157e11e896
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/cri-api v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -38,7 +38,6 @@ require (
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/swag v0.23.0 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3 // indirect
@@ -77,4 +76,12 @@ require (
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/cri-api => ../cri-api
 )
