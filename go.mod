@@ -15,11 +15,11 @@ require (
 	go.opentelemetry.io/otel/trace v1.36.0
 	golang.org/x/sys v0.37.0
 	google.golang.org/grpc v1.72.2
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/cri-api v0.0.0
+	k8s.io/api v0.0.0-20251126203939-39e2e26f9bf7
+	k8s.io/apimachinery v0.0.0-20251126203613-2e9c2280ae35
+	k8s.io/client-go v0.0.0-20251126204431-46360b527ebc
+	k8s.io/component-base v0.0.0-20251126205700-dffb9dfaf9c7
+	k8s.io/cri-api v0.0.0-20251203154728-3700a5ed5d82
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4
 )
@@ -76,38 +76,4 @@ require (
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
-)
-
-replace (
-	k8s.io/api => ../api
-	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/cli-runtime => ../cli-runtime
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/cluster-bootstrap => ../cluster-bootstrap
-	k8s.io/code-generator => ../code-generator
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/cri-api => ../cri-api
-	k8s.io/cri-client => ../cri-client
-	k8s.io/csi-translation-lib => ../csi-translation-lib
-	k8s.io/dynamic-resource-allocation => ../dynamic-resource-allocation
-	k8s.io/endpointslice => ../endpointslice
-	k8s.io/externaljwt => ../externaljwt
-	k8s.io/kms => ../kms
-	k8s.io/kube-aggregator => ../kube-aggregator
-	k8s.io/kube-controller-manager => ../kube-controller-manager
-	k8s.io/kube-proxy => ../kube-proxy
-	k8s.io/kube-scheduler => ../kube-scheduler
-	k8s.io/kubectl => ../kubectl
-	k8s.io/kubelet => ../kubelet
-	k8s.io/metrics => ../metrics
-	k8s.io/mount-utils => ../mount-utils
-	k8s.io/pod-security-admission => ../pod-security-admission
-	k8s.io/sample-apiserver => ../sample-apiserver
-	k8s.io/sample-cli-plugin => ../sample-cli-plugin
-	k8s.io/sample-controller => ../sample-controller
 )
