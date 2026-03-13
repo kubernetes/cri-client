@@ -17,9 +17,9 @@ require (
 	google.golang.org/grpc v1.78.0
 	k8s.io/api v0.0.0
 	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/cri-api v0.0.0
+	k8s.io/client-go v0.0.0-20260317075959-9dc763689d1a
+	k8s.io/component-base v0.0.0-20260317085341-66d91be5828b
+	k8s.io/cri-api v0.0.0-20260317122456-bde76f64cabb
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 )
@@ -79,10 +79,7 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/component-base => ../component-base
-	k8s.io/cri-api => ../cri-api
-	k8s.io/streaming => ../streaming
+	k8s.io/api => k8s.io/api v0.0.0-20260317073624-369111fb8de0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20260317071512-f00b254e34da
+	k8s.io/streaming => k8s.io/streaming v0.0.0-20260317070603-951b6bf67777
 )
