@@ -37,3 +37,7 @@ require (
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace k8s.io/api => k8s.io/api v0.0.0-20260321105602-61bd78e724dd
+
+replace k8s.io/client-go => k8s.io/client-go v0.0.0-20260321110246-3d35c512076e
