@@ -38,6 +38,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace k8s.io/api => k8s.io/api v0.0.0-20260321105602-61bd78e724dd
-
-replace k8s.io/client-go => k8s.io/client-go v0.0.0-20260321110246-3d35c512076e
+replace (
+	k8s.io/api => k8s.io/api v0.0.0-20260323181217-f8fce2ea6d49
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20260323190258-df2d882697f9
+)
