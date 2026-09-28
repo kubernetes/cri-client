@@ -17,7 +17,7 @@ require (
 	golang.org/x/sys v0.48.0
 	google.golang.org/grpc v1.84.0
 	google.golang.org/protobuf v1.36.12
-	k8s.io/component-base v0.0.0-20260928182355-1055e257dd23
+	k8s.io/component-base v0.0.0-20260928182359-13f8a1410b13
 	k8s.io/cri-api v0.0.0-20260925230146-ea5c46e342a0
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
