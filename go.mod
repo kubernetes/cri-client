@@ -10,15 +10,15 @@ require (
 	github.com/Microsoft/go-winio v0.6.2
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/stretchr/testify v1.12.1
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.71.0
-	go.opentelemetry.io/otel v1.46.0
-	go.opentelemetry.io/otel/sdk v1.46.0
-	go.opentelemetry.io/otel/trace v1.46.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.72.0
+	go.opentelemetry.io/otel v1.47.0
+	go.opentelemetry.io/otel/sdk v1.47.0
+	go.opentelemetry.io/otel/trace v1.47.0
 	golang.org/x/sys v0.48.0
 	google.golang.org/grpc v1.84.0
 	google.golang.org/protobuf v1.36.12
-	k8s.io/component-base v0.0.0-20261008194719-682b4b0c7a2d
-	k8s.io/cri-api v0.0.0-20260928191716-05ba3f0defdb
+	k8s.io/component-base v0.0.0-20261008194721-2105d667ae4f
+	k8s.io/cri-api v0.0.0-20261008230314-a8dc9a1420e1
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
@@ -29,9 +29,10 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/otel/metric v1.46.0 // indirect
+	go.opentelemetry.io/otel/log v1.47.0 // indirect
+	go.opentelemetry.io/otel/metric v1.47.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/net v0.59.0 // indirect
 	golang.org/x/text v0.42.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260825221802-da73d73af1c5 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260928230214-8a89bd6388cc // indirect
 )
