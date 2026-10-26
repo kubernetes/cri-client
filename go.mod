@@ -18,7 +18,7 @@ require (
 	google.golang.org/grpc v1.84.0
 	google.golang.org/protobuf v1.36.12
 	k8s.io/component-base v0.0.0-20261023234526-fb31fa885a93
-	k8s.io/cri-api v0.0.0-20261024003331-33b308314249
+	k8s.io/cri-api v0.0.0-20261026201603-9ba836ca7381
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
