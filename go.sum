@@ -53,8 +53,8 @@ google.golang.org/protobuf v1.36.12 h1:pJOKDDOyeXErUroCihFAd5LQuwXBSpVnKGrj5o/fw
 google.golang.org/protobuf v1.36.12/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j23XfzDpco=
 k8s.io/component-base v0.0.0-20261103211149-06422decc836 h1:OFwVp0KEvn5nsuz2UyQnJSBdUHZuDAZbhnvqyxfwCvo=
 k8s.io/component-base v0.0.0-20261103211149-06422decc836/go.mod h1:DfbJpoG0ms5HriXMJiQ0hLSOMP1CuFbodD5wPGIG3pU=
-k8s.io/cri-api v0.0.0-20261102174932-4f30a580371c h1:JWKCyTA/eNnA65soTjNmQ5DlJZLzVWXzvlRDqXQpbJg=
-k8s.io/cri-api v0.0.0-20261102174932-4f30a580371c/go.mod h1:rkVCirLa2/jHfd1wk4B3zdFakwvUsA3pX8uI0yOYG0c=
+k8s.io/cri-api v0.0.0-20261104210322-6438f4c7fbe3 h1:fKjTwYR3MCuWwipDjhFeKmepz6HChOl3FtpAHfYsQ0I=
+k8s.io/cri-api v0.0.0-20261104210322-6438f4c7fbe3/go.mod h1:rkVCirLa2/jHfd1wk4B3zdFakwvUsA3pX8uI0yOYG0c=
 k8s.io/klog/v2 v2.140.0 h1:Tf+J3AH7xnUzZyVVXhTgGhEKnFqye14aadWv7bzXdzc=
 k8s.io/klog/v2 v2.140.0/go.mod h1:o+/RWfJ6PwpnFn7OyAG3QnO47BFsymfEfrz6XyYSSp0=
 k8s.io/utils v0.0.0-20260626114624-be93311217bd h1:Ea7fgQ5we8Y9T0OX5o0dAHzQOBRI07D/dEYRaB9ZZEs=

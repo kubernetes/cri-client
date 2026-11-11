@@ -18,7 +18,7 @@ require (
 	google.golang.org/grpc v1.85.0
 	google.golang.org/protobuf v1.36.12
 	k8s.io/component-base v0.0.0-20261103211149-06422decc836
-	k8s.io/cri-api v0.0.0-20261102174932-4f30a580371c
+	k8s.io/cri-api v0.0.0-20261104210322-6438f4c7fbe3
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
@@ -35,4 +35,10 @@ require (
 	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260928230214-8a89bd6388cc // indirect
+)
+
+replace (
+	k8s.io/api => k8s.io/api v0.0.0-20261110004848-54115355ef80
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20261111054554-99ecaa0b26e4
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20261109205458-5297d7d6d360
 )
